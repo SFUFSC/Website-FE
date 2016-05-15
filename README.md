@@ -1,1 +1,4 @@
-# Website-FE
+#SFU FANTASY SPORTS WEBSITE
+#FRONT END 
+#LANGUAGES: BOOTSTRAP, CSS, HTML, JS
+# Authors: Ivan Wong, Dallan Bhatti, Sukhman Brar
