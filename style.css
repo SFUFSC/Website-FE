@@ -1,0 +1,111 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/*-----------------------Navigation Bar Styles-------------------------------*/
+
+
+
+/*-------------------------Global Styles----------------------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+body {
+	font-family: "Oswald", Helvetica, sans-serif;
+	-webkit-font-smoothing: antialiased;
+}
+
+.wrapper {
+	width: 1440px;
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+/*-------------------------Navigation Bar Styles----------------------------*/
+
+#navbar {
+	background-image: url(../image/mj.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	overflow: scroll;
+}
+
+header{
+	color: #FFFFFF;
+	padding: 2rem 0;
+}
+
+#logo {
+		color: #FFFFFF;
+		font-weight: 700;
+		font-size: 1.35rem;
+		float: left;
+		margin: 0;
+}
+
+span {
+	font-weight: 400;
+}
+
+nav {
+	float: right;
+}
+
+a{
+	color: #FFFFFF;
+	font-weight: 700;
+	text-decoration: none;
+	border-bottom: 1px solid #000;
+	padding-bottom: 3px;
+	margin-left: 2rem;
+}
+
+.content {
+	padding: 2rem 0 6rem 0;
+}
+
+.title {
+	color: #FFFFFF;
+	text-align: center;
+	font-size: 6rem;
+	line-height: 5.5;
+	margin: 0;
+}
+
+.see_more {
+	position: absolute;
+	left: 50%;
+	margin-left: -13px;
+	bottom: 87px;
+	cursor: pointer;
+}
+
+
+
+/*-------------------------NHL Styles----------------------------*/
+
+#NHL {
+	background-image: url(../image/blackhawks.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
