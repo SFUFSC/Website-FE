@@ -1,0 +1,333 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+
+ */
+
+body {
+    background: white;
+    padding-top: 50px;
+	
+        }
+        
+#top_banner {
+	width: 100%;
+	background-color: rgba(0, 0, 0, 1); 
+    text-align: right;
+}
+
+#top_banner a {
+	display: inline-block;
+	padding: 0.5rem;
+	text-decoration: none;
+	font-family: play;
+	font-weight: lighter;
+	color: white;
+}
+
+#top_banner a:hover {
+	background-color: #333333;
+}
+
+#top_banner p {
+	display: inline-block;
+	font-weight: lighter;
+	color: white;
+}
+
+		
+@font-face {
+    font-family: 'NHLFONT';
+    src: url('NHL.ttf');
+	
+}
+		
+@font-face {
+    font-family: 'NIKEFONT';
+    src: url('NikeScript.ttf');
+	
+}
+
+@font-face {
+    font-family: 'NBAFONT';
+    src: url('NBA.ttf');
+	
+}
+
+@font-face {
+    font-family: 'MLBFONT';
+    src: url('MLB.ttf');
+	
+}
+
+@font-face {
+    font-family: 'NFLFONT';
+    src: url('NFL.ttf');
+	
+}
+
+mlb{
+	font-family: 'MLBFONT';
+	color: white;
+	text-align: center;
+	font-size: 60px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 400px;
+}
+
+
+nba{
+	font-family: 'NBAFONT';
+	color: white;
+	text-align: center;
+	font-size: 60px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 400px;
+}
+
+
+
+nhl{
+	font-family: 'NHLFONT';
+	color: white;
+	text-align: center;
+	font-size: 60px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 400px;
+}
+
+nfl{
+	font-family: 'NFLFONT';
+	color: white;
+	text-align: center;
+	font-size: 60px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 400px;
+}
+		
+titlefont2 {
+	font-family: 'NIKEFONT', sans-serif;
+	color: white;
+	font-size: 25px;
+	font-style: normal;
+	font-variant: normal;
+	
+	line-height: 15.4px;
+	margin-right:10px;
+}
+
+titlefont3 {
+	font-family: 'NIKEFONT', sans-serif;
+	color: white;
+	font-size: 200px;
+	font-style: normal;
+	font-variant: normal;
+	text-align: right;
+	line-height: 150.4px;
+	margin-right:10px;
+}
+
+titlefont4 {
+	font-family: 'NIKEFONT', sans-serif;
+	color: white;
+	font-size: 40px;
+	font-style: normal;
+	font-variant: normal;
+	text-align: right;
+	line-height: 40.4px;
+	margin-right:10px;
+}
+
+titlefont {
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	font-size: 25px;
+	font-style: normal;
+	font-variant: normal;
+	
+	line-height: 15.4px;
+	margin-right:10px;
+}
+
+fontinnav {
+	font-family: 'Khand', sans-serif;
+	color: white;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	
+}
+fontinnavblack {
+	font-family: 'Khand', sans-serif;
+	color: black;
+	font-size: 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	
+}
+
+.padding-0 {
+    padding: 0;
+}
+
+.fill {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden
+}
+.fill img {
+    flex-shrink:0;
+    min-width:100%;
+    min-height:100%
+}
+
+
+.hovereffect {
+  width: 100%;
+  height: 100%;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  cursor: default;
+}
+
+.hovereffect .overlay {
+  position: absolute;
+  overflow: hidden;
+  width: 80%;
+  height: 80%;
+  left: 10%;
+  top: 10%;
+  border-bottom: 1px solid #FFF;
+  border-top: 1px solid #FFF;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0,1);
+  -ms-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+.hovereffect:hover .overlay {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+}
+
+.hovereffect:hover img {
+  filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feComponentTransfer color-interpolation-filters="sRGB"><feFuncR type="linear" slope="0.6" /><feFuncG type="linear" slope="0.6" /><feFuncB type="linear" slope="0.6" /></feComponentTransfer></filter></svg>#filter');
+  filter: brightness(0.6);
+  -webkit-filter: brightness(0.6);
+}
+
+.hovereffect h2 {
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  font-size: 17px;
+  background-color: transparent;
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,-100%,0);
+  transform: translate3d(0,-100%,0);
+}
+
+.hovereffect a, hovereffect p {
+  color: #FFF;
+  padding: 1em 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0,100%,0);
+  transform: translate3d(0,100%,0);
+}
+
+.hovereffect:hover a, .hovereffect:hover p, .hovereffect:hover h2 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transform: translate3d(0,0,0);
+  transform: translate3d(0,0,0);
+}
+
+.thumbnail {
+  opacity: 0.4;
+  
+  }
+.thumbnail:hover {
+  opacity: 1;
+  }
+
+.thumbnail:hover nba {
+  opacity: 1;
+  	font-family: 'NBAFONT';
+	color: grey;
+	text-align: center;
+	font-size: 60px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 900px;
+
+  }
+.thumbnail:hover nhl {
+  opacity: 1;
+
+    font-family: 'NHLFONT';
+	color: gray;
+	text-align: center;
+	font-size: 60px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 900px;
+
+  }
+.thumbnail:hover mlb {
+  opacity: 1;
+
+
+    font-family: 'MLBFONT';
+	color: grey;
+	text-align: center;
+	font-size: 60px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 900px;
+  }
