@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
      ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
     '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
@@ -22,3 +23,9 @@ The Cloud9 IDE team
 
 Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE. 
 To watch some training videos, visit http://www.youtube.com/user/c9ide
+=======
+#SFU FANTASY SPORTS WEBSITE
+#FRONT END 
+#LANGUAGES: BOOTSTRAP, CSS, HTML, JS
+# Authors: Ivan Wong, Dallan Bhatti, Sukhman Brar
+>>>>>>> f0870c5c309db2a98c6bf07ede8d4d9d89a51b40
