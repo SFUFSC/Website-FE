@@ -1,6 +1,10 @@
 class Users::InvitationsController < Devise::InvitationsController
-  def after_invite_path_for(resource)
-    after_sign_in_path_for(current_inviter)
+  def update
+    if some_condition
+      redirect_to root_path
+    else
+      super
+    end
   end
   private
 
