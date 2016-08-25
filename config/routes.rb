@@ -15,7 +15,7 @@ Rails.application.routes.draw do
 
   
   # devise_for :users
-  devise_for :users, controllers: { sessions: 'users/sessions', invitations: 'users/invitations', confimations: 'users/confimations', 
+  devise_for :users, controllers: { sessions: 'users/sessions', confimations: 'users/confimations', 
   mailer: 'users/mailer', passwords: 'users/passwords', unlocks: 'users/unlocks'}
 
   
