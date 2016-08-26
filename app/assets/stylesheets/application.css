@@ -17,7 +17,7 @@
 
 body {
     background: white;
-    padding-top: 50px;
+    /*padding-top: 50px;*/
 	
         }
         
@@ -330,4 +330,9 @@ fontinnavblack {
 	font-variant: normal;
 	font-weight: 500;
 	line-height: 900px;
+  }
+  .navbar{
+        border: none;
+        border-radius: 0;
+        background-color: rgba(0,0,0,0.5);
   }
